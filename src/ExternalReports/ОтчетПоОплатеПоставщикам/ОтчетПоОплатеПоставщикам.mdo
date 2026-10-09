@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd7a2e18-6714-4c7c-a912-d6f28ae77d92">
+  <producedTypes>
+    <objectType typeId="7f566f31-7b67-42ef-aa5e-9d0443c1f4ff" valueTypeId="a20ed963-de6d-4795-b1ab-9ded0ad2034f"/>
+  </producedTypes>
+  <name>ОтчетПоОплатеПоставщикам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по оплате поставщикам</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="a6f2710a-5f9d-4fd3-abb4-2a29e658a937"/>
+  <mainDataCompositionSchema>ExternalReport.ОтчетПоОплатеПоставщикам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="61de6239-663f-46f5-a45c-ccd43edafd7f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>
